@@ -14,7 +14,7 @@ devices="0"
 
 for th_percent in $(seq 0.01 0.01 0.01)
 do
-    for min_area in $(seq 10 10 100)
+    for min_area in $(seq 1 1 1)
     do
         python test_save_image.py \
         --input=$input  --modelpath=$modelpath --imagepath=$imagepath \
